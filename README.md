@@ -6,9 +6,6 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -34,7 +31,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Image 1: Azure VM Deployment Screen
+Start by logging into the Azure Portal and creating a Virtual Machine (VM). Choose Ubuntu 22.04 (for a LAMP setup) or Windows Server 2019/2022 (for IIS). Select an appropriate VM size based on your expected workload, and ensure you configure Networking to open the required ports: 80 (HTTP), 443 (HTTPS), and 22 (SSH) for Linux or 3389 (RDP) for Windows. Once deployed, connect to the VM using SSH (Linux) or RDP (Windows) and update system packages.
+
+
 </p>
 <br />
 
