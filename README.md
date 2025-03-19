@@ -20,11 +20,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Step 1: Set Up an Azure Virtual Machine
-- Step 2: Install Web Server, PHP, and Database
-- Step 3: Download & Configure osTicket
-- Step 4: Complete Web-Based Installation
-- Step 5: Finalize Setup & Secure osTicket
-
+- Step 2: Download osticket instalation files within the virtual machine
+- Step 3: Enable IIS in Windows with CGI
+- Step 4: Install PHP manager for IIS from the osTicket Installation Files
+- Step 5: Install the Rewrite Module from the osTicket Installation Files
+- Step 6: Install VC_redistx86 from the osTicket Installation Files
+- Step 7: Install MYSQL 5.5.62 from the osTicket Installation Files
+- Step 8: Install HeidiSQL from the osTicket Installation Files
 <h2>Installation Steps</h2>
 
 <p>
