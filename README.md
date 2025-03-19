@@ -28,8 +28,25 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 -  Install MYSQL 5.5.62 from the osTicket Installation Files
 -  Install HeidiSQL from the osTicket Installation Files
 <h2>Installation Steps</h2>
+<h3>Step:1 Create a Virtual Machine(VM) in Azure</h3>
 
 <p>
+  
+- Create a resource group in Azure
+- Create a virtual machine
+    - Under Image, select Windows 10 Pro version 22H2
+    - Under Size, select option with at least 2 vcpus
+    - Create a username and password for your account
+    - Review and create
+</p>
+<br/>
+
+<<h3>Step:2 Create a Virtual Machine(VM) in Azure</h3>
+
+
+- Find your VM's public IP address and copy it
+- Open the Microsoft remote desktop application
+- Paste the VM's public IP address inside the computer field
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
