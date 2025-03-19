@@ -41,7 +41,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br/>
 
-<<h3>Step:2 Create a Virtual Machine(VM) in Azure</h3>
+<h3>Step:2 Create a Virtual Machine(VM) in Azure</h3>
 
 
 - Find your VM's public IP address and copy it
