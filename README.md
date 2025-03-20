@@ -161,13 +161,32 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   
 ![image](https://github.com/user-attachments/assets/0b5e0e18-f130-4d9d-a264-82d1ed3746ad)
 
-  
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- After clicking "Register new PHP version", you will be required to provide a path to "php-cgi.exe"
+- You will click the 3 dots to the right to open file explorer
+- Navigate to the Windows (C:) Drive, Folder PHP, select "php-cgi" -> click "Ok"
+
 </p>
-<p>
 
+  
+![image](https://github.com/user-attachments/assets/f6dd14fd-9378-4e44-b651-bba92260e5f2)
 
+</p>
+<br />
 
+<h3>Step:13 Restart IIS
+
+- Inside of IIS click, osticket-vm on the top left, under connections
+- Right click on osticket-vm and stop it, then start it back up after a second to restart the web server
+
+![image](https://github.com/user-attachments/assets/e1942b65-2df6-47d7-88a5-57d0509e3b4c)
+
+</p>
+<br />
+
+<h3>Step:14 Install osTicket
+
+- Inside of IIS click, osticket-vm on the top left, under connections
+- Right click on osticket-vm and stop it, then start it back up after a second to restart the web server
 
 
 
