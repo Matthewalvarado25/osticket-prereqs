@@ -105,12 +105,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
   
-<h3>Step:8 Extract "php-7.3.8-nts-Win32-VC15-x86.zip"
+<h3>Step:8 Extract php-7.3.8-nts-Win32-VC15-x86.zip
 
   
 </p>
 
-- Find, "php-7.3.8-nts-Win32-VC15-x86.zip" folder in downloaded osTicket Installation Files
+- Find, php-7.3.8-nts-Win32-VC15-x86.zip folder in downloaded osTicket Installation Files
 - Right click on the folder and choose extract all, then select the PHP folder from the (C:) Drive
 
 ![image](https://github.com/user-attachments/assets/97fa47e5-ddfa-4ba9-ab77-3a0c7bc282e0)
@@ -148,7 +148,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>Step:11 Open IIS as an administrator 
 
-- Click on the windows search bar and type "IIS"
+- Click on the windows search bar and type IIS
 - Right click the app and run as administartor 
 
 </p>
@@ -157,13 +157,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Step:12 Register PHP Manager 
 
 - Inside of IIS click, PHP Manager
-- In "PHP setup" click Register new PHP version
+- In PHP setup, click Register new PHP version
   
 ![image](https://github.com/user-attachments/assets/0b5e0e18-f130-4d9d-a264-82d1ed3746ad)
 
-- After clicking "Register new PHP version", you will be required to provide a path to "php-cgi.exe"
+- After clicking Register new PHP version, you will be required to provide a path to php-cgi.exe
 - You will click the 3 dots to the right to open file explorer
-- Navigate to the Windows (C:) Drive, Folder PHP, select "php-cgi" -> click "Ok"
+- Navigate to the Windows (C:) Drive, Folder PHP, select php-cgi -> click Ok
 
 </p>
 
@@ -185,13 +185,81 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>Step:14 Install osTicket
 
-- Inside of IIS click, osticket-vm on the top left, under connections
-- Right click on osticket-vm and stop it, then start it back up after a second to restart the web server
+- Extract files in osTicket-v1.15.8 folder
+- Next open a new File Explorer window
+- Within the new File Explorer window, scroll to the Windows (C:) Drive -> inetpub -> wwwroot
+- Drag the "Upload" folder from the extracted files into the wwwroot folder
+- Lastly rename the Upload folder to osTicket
+
+![image](https://github.com/user-attachments/assets/d17683d4-c36d-47d5-8ceb-e2772d101718)
+
+</p>
+<br />
+
+<h3>Step:15 Restart IIS again
+  
+- Go back into IIS
+- Follow the same steps as you you did in Step:13
+
+</p>
+<br />
+
+<h3>Step:16 Load the osTicket site
+  
+- Inside IIS, expand the Sites dropdown -> expand Default Web Site -> click osTicket
+- On the right side of the window, click on Browse *80 (http)
+- The osTicket site should load 
+
+![image](https://github.com/user-attachments/assets/5fd3cff2-5bce-4625-a53d-7315b2fe9d14)
+<p>
+  
+![image](https://github.com/user-attachments/assets/b09c2a09-f6a5-41c9-b91d-33ef23ed14f2)
+
+
+</p>
+<br />
+
+<h3>Step:17 Enable Extensions
+  
+- Go back into IIS
+- On the left side of window, expand Sites folder -> click Default Web Site -> click on osTicket folder
+- Click on PHP Manager
+- Click Enable or disable an extension link under, PHP Extensions
+- Enable the following extenstions:
+  php_imap.dll ,
+  php_intl.dll ,
+  php_opcache.dll 
+
+<p>
+
+  
+![image](https://github.com/user-attachments/assets/3fb3e765-b7f2-4ed7-a545-6c6235b959bd)
+
+<p>
+  
+![image](https://github.com/user-attachments/assets/76f9d048-5da6-4023-959b-6f9164a84a11)
+
+<p>
+
+  
+![image](https://github.com/user-attachments/assets/64bb22e4-29eb-4e30-9e68-d93f0a243080)
+
+
+- Refresh the osTicket website in your browser and you will see that the previously disabled features are now enabled
+
+![image](https://github.com/user-attachments/assets/5515aac3-6493-4178-9c71-fee4a025d2b9)
 
 
 
+</p>
+<br />
 
 
+<h3>Step:18 Rename ost-config.php
+  
+- Open File Explorer and navigate to Windows (C:) Drive -> inetpub -> wwwroot -> osTicket -> include
+- Inside "include" folder, locate "ost-sampleconfig.php" file
+- Rename file to ost-config.php
 
 
 
