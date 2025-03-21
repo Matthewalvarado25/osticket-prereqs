@@ -20,13 +20,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 -  Set Up an Azure Virtual Machine
+-  Use Remote Desktop Protocal in the VM
 -  Download osticket instalation files within the virtual machine
 -  Enable IIS in Windows with CGI
--  Install PHP manager for IIS from the osTicket Installation Files
--  Install the Rewrite Module from the osTicket Installation Files
--  Install VC_redistx86 from the osTicket Installation Files
--  Install MYSQL 5.5.62 from the osTicket Installation Files
--  Install HeidiSQL from the osTicket Installation Files
+-  Download and install PHP manager for IIS 
+-  Download and install the Rewrite Module
+-  Create the directory C:\PHP
+-  Download PHP 7.3.8 and unzip the contents into C:\PHP
+-  Download and install VC_redistx86 
+-  Download and install MYSQL 5.5.62
+-  Open IIS as an Admin and register PHP from within IIS
+-  Made osTicket v1.15.8
+-  Download and install HeidiSQL
+-  Finish up osTicket in the browser
 <h2>Installation Steps</h2>
 <h3>Step:1 Create a Virtual Machine(VM) in Azure</h3>
 
