@@ -258,15 +258,67 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Step:18 Rename ost-config.php
   
 - Open File Explorer and navigate to Windows (C:) Drive -> inetpub -> wwwroot -> osTicket -> include
-- Inside "include" folder, locate "ost-sampleconfig.php" file
-- Rename file to ost-config.php
+- Inside the "include" folder, locate "ost-sampleconfig.php" file
+- Rename ost-sampleconfig.php file to ost-config.php
 
 
+</p>
+<br />
+
+<h3>Step:19 Assign Permissions in "ost-config.php"
+  
+- Right click on "ost-config.php" file and click properties
+- We want to enable anyone to edit the file.
+- Select secruity then advance and disable all inheritance.
+- Next click add and click add properties.
+- Type in "everyone" in the section and hit apply then ok and now everyone can edit!
+  
+![image](https://github.com/user-attachments/assets/56fb35a3-7643-4e13-9c66-03d505e74b4b)
 
 
+<p>
 
+  
+![image](https://github.com/user-attachments/assets/47513092-a2c3-45b2-b861-3f018718495d)
 
+</p>
+<br />
 
+<h3>Step:20 Continue osTicket setup
+  
+- Inside the osTicket webpage, click "Continue"
+- Fill out "System Settings" and "Admin User"
+- The two email addresses for email admin and email user should be different
 
+</p>
+<br />
 
+<h3>Step:21 Install HeidiSQL"
+  
+- Install "HeidiSQL_12.3.0.6589_Setup" from downloaded osTicket Installation Files
+- Open HeidiSQL
+- Click "New" at bottom left of window to create a new session
+- In the new session the user name will be "root" and you will also need to create a password
+- Click "Open" to connect to session database
+- on the top left, right click on "Unnamed" -> create new -> Database
+- create a database and name it "osTicket", then click "Ok"
+
+![image](https://github.com/user-attachments/assets/a8450275-a694-43ef-8108-d6593d3077b7)
+
+</p>
+<br />
+
+<h3>Step:22 Finish osTicket system
+  
+- Finish setting up osTicket, by filling out the "database settings"
+- Then click "Install Now" and osTicket will be installed
+
+![image](https://github.com/user-attachments/assets/8a958b78-cedc-449a-a12c-c791dbd97d9c)
+
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/2d86362f-e961-4e34-a302-a1162dc3fe83)
+
+<h3> You have succesfully made osTicket. Congratulations!!!
 
