@@ -40,8 +40,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   
 - Create a resource group in Azure
 - Create a virtual machine
-    - Under Image, select Windows 10 Pro version 22H2
-    - Under Size, select option with at least 2 vcpus
+    - In Image, select Windows 10 Pro version 22H2
+    - In Size, select option with at least 2 vcpus
     - Create a username and password for your account
     - Review and create
 </p>
@@ -69,9 +69,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Step:4 Enable IIS
 
 - Look up "control panel" on the search bar
-- Open the control panel and select Programs
+- Open the control panel and select programs
 - Click on "Turn Windows features on or off"
-- Scroll down to approve and expand "Internet Information Services(IIS)"
+- Browse to approve and expand "Internet Information Services(IIS)"
 - Approve and expand "World Wide Web Services"
 - Expand "Application Development Features"
 - Approve CGI then hit "Ok"
