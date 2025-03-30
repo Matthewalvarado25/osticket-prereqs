@@ -52,6 +52,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Locate your VM's public IP address and copy it
 - Open the Microsoft remote desktop app
 - Then paste the virtual machine's public IP address inside the text field
+- Lastly, enter your username and password that you had created in the virtual machine
   
 ![image](https://github.com/user-attachments/assets/50da2c37-18cd-4593-9467-0658d6d7a1ea) ![image](https://github.com/user-attachments/assets/f08829e2-05bb-4905-ba55-5f43db334036)
 
@@ -60,7 +61,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>Step:3 Download the osticket instalation files</h3>
   
-- Copy the osticket files link, then inside the VM open the browser, paste a link inside the search bar, and download the files
+- Copy the osticket files link, then inside the virtual machine open the browser, paste a link inside the search bar, and download the files
 
 
 </p>
@@ -68,10 +69,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>Step:4 Enable IIS</h3>
 
-- Look up "control panel" on the search bar
-- Open the control panel and select programs
-- Click on "Turn Windows features on or off"
-- Browse to approve and expand "Internet Information Services(IIS)"
+- Search for the "control panel" on the search bar
+- Press the control panel and select programs
+- Press on "Turn Windows features on or off"
+- Scroll down to approve and expand "Internet Information Services(IIS)"
 - Approve and expand "World Wide Web Services"
 - Expand "Application Development Features"
 - Approve CGI then hit "Ok"
@@ -98,7 +99,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Step:7 Create a new Directory</h3>
 
 - Open file explorer
-- Click on "this PC"
+- Tap on "this PC"
 - Navigate to the windows (C:)Drive
 - In the Windows (C:) Drive, create a new folder titled "PHP"
 
