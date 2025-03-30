@@ -156,7 +156,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Step:11 Open IIS as an administrator</h3> 
 
 - Click on the windows search bar and type IIS
-- Right click the app and run as administartor 
+- Right click the app, and Run as administartor 
 
 </p>
 <br />
@@ -168,8 +168,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   
 ![image](https://github.com/user-attachments/assets/0b5e0e18-f130-4d9d-a264-82d1ed3746ad)
 
-- After clicking Register new PHP version, you will be required to provide a path to php-cgi.exe
-- You will click the 3 dots to the right to open file explorer
+- After selecting Register new PHP version, you will be required to set a location to php-cgi.exe
+- You will click the 3 dots to the right, to open file explorer
 - Navigate to the Windows (C:) Drive, Folder PHP, select php-cgi -> click Ok
 
 </p>
@@ -182,7 +182,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>Step:13 Restart IIS</h3>
 
-- Inside of IIS click, osticket-vm on the top left, under connections
+- Inside of IIS, click on osticket-vm on the top left, under connections
 - Right click on osticket-vm and stop it, then start it back up after a second to restart the web server
 
 ![image](https://github.com/user-attachments/assets/e1942b65-2df6-47d7-88a5-57d0509e3b4c)
@@ -194,9 +194,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Extract files in osTicket-v1.15.8 folder
 - Next open a new File Explorer window
-- Within the new File Explorer window, scroll to the Windows (C:) Drive -> inetpub -> wwwroot
+- In the new File Explorer window, scroll to the Windows (C:) Drive -> inetpub -> wwwroot
 - Drag the "Upload" folder from the extracted files into the wwwroot folder
-- Lastly rename the Upload folder to osTicket
+- Lastly, rename the Upload folder to "osTicket"
 
 ![image](https://github.com/user-attachments/assets/d17683d4-c36d-47d5-8ceb-e2772d101718)
 
@@ -211,9 +211,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<h3>Step:16 Load the osTicket site</h3>
+<h3>Step:16 Open the osTicket site</h3>
   
-- Inside IIS, expand the Sites dropdown -> expand Default Web Site -> click osTicket
+- In IIS, expand the Sites dropdown -> expand Default Web Site -> click osTicket
 - On the right side of the window, click on Browse *80 (http)
 - The osTicket site should load 
 
@@ -265,7 +265,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Step:18 Rename ost-config.php</h3>
   
 - Open File Explorer and navigate to Windows (C:) Drive -> inetpub -> wwwroot -> osTicket -> include
-- Inside the "include" folder, locate "ost-sampleconfig.php" file
+- In the "include" folder, locate "ost-sampleconfig.php" file
 - Rename ost-sampleconfig.php file to ost-config.php
 
 
@@ -275,10 +275,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Step:19 Assign Permissions in "ost-config.php"</h3>
   
 - Right click on "ost-config.php" file and click properties
-- We want to enable anyone to edit the file.
-- Select secruity then advance and disable all inheritance.
-- Next click add and click add properties.
-- Type in "everyone" in the section and hit apply then ok and now everyone can edit!
+- Scroll to the "Security" Tab -> click "Advanced" -> click "Disable inheritance" at bottom left of window -> click "Remove all inherited permissions from this object
+- Click "Add" at bottom left of window -> click "Select a principal" -> type "Everyone" in object name text box -> click "Ok"
+- Under "Basic permissions" enable "Full control" check box
+- Click "Apply" and then click "Ok"
   
 ![image](https://github.com/user-attachments/assets/56fb35a3-7643-4e13-9c66-03d505e74b4b)
 
@@ -293,22 +293,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>Step:20 Continue osTicket setup</h3>
   
-- Inside the osTicket webpage, click "Continue"
-- Fill out "System Settings" and "Admin User"
-- The two email addresses for email admin and email user should be different
+- In the osTicket webpage, click "Continue"
+- Fill out the required fields "System Settings" and "Admin User"
+- Be aware that the two email addresses for email admin and email user should be different
 
 </p>
 <br />
 
 <h3>Step:21 Install HeidiSQL"</h3>
   
-- Install "HeidiSQL_12.3.0.6589_Setup" from downloaded osTicket Installation Files
+- Install "HeidiSQL_12.3.0.6589_Setup" from the downloaded osTicket Installation Files
 - Open HeidiSQL
 - Click "New" at bottom left of window to create a new session
 - In the new session the user name will be "root" and you will also need to create a password
 - Click "Open" to connect to session database
-- on the top left, right click on "Unnamed" -> create new -> Database
-- create a database and name it "osTicket", then click "Ok"
+- On the top left, right click on "Unnamed" -> create new -> Database
+- Create a database and name it "osTicket", then click "Ok"
 
 ![image](https://github.com/user-attachments/assets/a8450275-a694-43ef-8108-d6593d3077b7)
 
