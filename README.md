@@ -49,24 +49,24 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>Step:2 Create a Virtual Machine(VM) in Azure</h3>
 
-- Find your VM's public IP address and copy it
-- Open the Microsoft remote desktop application
-- Paste the VM's public IP address inside the computer field
+- Locate your VM's public IP address and copy it
+- Open the Microsoft remote desktop app
+- Then paste the virtual machine's public IP address inside the text field
   
 ![image](https://github.com/user-attachments/assets/50da2c37-18cd-4593-9467-0658d6d7a1ea) ![image](https://github.com/user-attachments/assets/f08829e2-05bb-4905-ba55-5f43db334036)
 
 </p>
 <br/>
 
-<h3>Step:3 Download the osticket instalation files
-
+<h3>Step:3 Download the osticket instalation files</h3>
+  
 - Copy the osticket files link, then inside the VM open the browser, paste a link inside the search bar, and download the files
 
 
 </p>
 <br/>
 
-<h3>Step:4 Enable IIS
+<h3>Step:4 Enable IIS</h3>
 
 - Look up "control panel" on the search bar
 - Open the control panel and select programs
@@ -81,21 +81,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br/>
 
-<h3>Step:5 Download PHP Manager 
+<h3>Step:5 Download PHP Manager</h3> 
   
 - Install PHPManagerForIIS_V1.5.0.msi from the osTicket-Installation-Files folder 
   
 </p>
 <br/>
 
-<h3>Step:6 Download Rewrite Module 
+<h3>Step:6 Download Rewrite Module</h3> 
 
 - Install rewrite_amd64_en-US.msi from the osTicket-Installation-Files folder 
 
 </p>
 <br/>
 
-<h3>Step:7 Create a new Directory
+<h3>Step:7 Create a new Directory</h3>
 
 - Open file explorer
 - Click on "this PC"
@@ -111,7 +111,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
   
-<h3>Step:8 Extract php-7.3.8-nts-Win32-VC15-x86.zip
+<h3>Step:8 Extract php-7.3.8-nts-Win32-VC15-x86.zip</h3>
 
   
 </p>
@@ -125,7 +125,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br/>
 
-<h3>Step:9 Install VC_redist.x86.exe
+<h3>Step:9 Install VC_redist.x86.exe</h3>
   
 </p>
 
@@ -136,7 +136,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br/>
 
-<h3>Step:10 Install MySQL 5.5.62
+<h3>Step:10 Install MySQL 5.5.62</h3>
   
 </p>
 
@@ -152,7 +152,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<h3>Step:11 Open IIS as an administrator 
+<h3>Step:11 Open IIS as an administrator</h3> 
 
 - Click on the windows search bar and type IIS
 - Right click the app and run as administartor 
@@ -160,7 +160,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<h3>Step:12 Register PHP Manager 
+<h3>Step:12 Register PHP Manager</h3>
 
 - Inside of IIS click, PHP Manager
 - In PHP setup, click Register new PHP version
@@ -179,7 +179,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<h3>Step:13 Restart IIS
+<h3>Step:13 Restart IIS</h3>
 
 - Inside of IIS click, osticket-vm on the top left, under connections
 - Right click on osticket-vm and stop it, then start it back up after a second to restart the web server
@@ -189,7 +189,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<h3>Step:14 Install osTicket
+<h3>Step:14 Install osTicket</h3>
 
 - Extract files in osTicket-v1.15.8 folder
 - Next open a new File Explorer window
@@ -202,7 +202,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<h3>Step:15 Restart IIS again
+<h3>Step:15 Restart IIS again</h3>
   
 - Go back into IIS
 - Follow the same steps as you you did in Step:13
@@ -210,7 +210,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<h3>Step:16 Load the osTicket site
+<h3>Step:16 Load the osTicket site</h3>
   
 - Inside IIS, expand the Sites dropdown -> expand Default Web Site -> click osTicket
 - On the right side of the window, click on Browse *80 (http)
@@ -225,7 +225,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<h3>Step:17 Enable Extensions
+<h3>Step:17 Enable Extensions</h3>
   
 - Go back into IIS
 - On the left side of window, expand Sites folder -> click Default Web Site -> click on osTicket folder
@@ -261,7 +261,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 
-<h3>Step:18 Rename ost-config.php
+<h3>Step:18 Rename ost-config.php</h3>
   
 - Open File Explorer and navigate to Windows (C:) Drive -> inetpub -> wwwroot -> osTicket -> include
 - Inside the "include" folder, locate "ost-sampleconfig.php" file
@@ -271,7 +271,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<h3>Step:19 Assign Permissions in "ost-config.php"
+<h3>Step:19 Assign Permissions in "ost-config.php"</h3>
   
 - Right click on "ost-config.php" file and click properties
 - We want to enable anyone to edit the file.
@@ -290,7 +290,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<h3>Step:20 Continue osTicket setup
+<h3>Step:20 Continue osTicket setup</h3>
   
 - Inside the osTicket webpage, click "Continue"
 - Fill out "System Settings" and "Admin User"
@@ -299,7 +299,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<h3>Step:21 Install HeidiSQL"
+<h3>Step:21 Install HeidiSQL"</h3>
   
 - Install "HeidiSQL_12.3.0.6589_Setup" from downloaded osTicket Installation Files
 - Open HeidiSQL
@@ -314,7 +314,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<h3>Step:22 Finish osTicket system
+<h3>Step:22 Finish osTicket system</h3>
   
 - Finish setting up osTicket, by filling out the "database settings"
 - Then click "Install Now" and osTicket will be installed
