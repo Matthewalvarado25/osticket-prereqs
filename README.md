@@ -61,7 +61,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>Step:3 Download the osticket instalation files</h3>
   
-- Copy the osticket files link, then inside the virtual machine open the browser, paste a link inside the search bar, and download the files
+- Copy the osticket files link, [osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD), then inside the virtual machine open the browser, paste a link inside the search bar, and download the files
 
 
 </p>
