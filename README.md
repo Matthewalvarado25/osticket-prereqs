@@ -143,7 +143,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Install mysql-5.5.62-win32.msi from the osticket installation files
 - Choose, "typical" setup type
-- Launch MYSQL Instance Configuration Wizard (after install)
+- Launch MYSQL Instance Configuration Wizard 
 - Select standard configuration
 - Create and confirm a new root password 
 
