@@ -49,7 +49,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>Step:2 Create a Virtual Machine(VM) in Azure</h3>
 
-- Locate your VM's public IP address and copy it
+- Find your virtual machines public IP address and copy it
 - Open the Microsoft remote desktop app
 - Then paste the virtual machine's public IP address inside the text field
 - Lastly, enter your username and password that you had created in the virtual machine
