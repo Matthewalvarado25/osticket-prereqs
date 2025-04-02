@@ -291,7 +291,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<h3>Step:20 Continue osTicket setup</h3>
+<h3>Step:20 Continue osTicket installation</h3>
   
 - In the osTicket webpage, click "Continue"
 - Fill out the required fields "System Settings" and "Admin User"
