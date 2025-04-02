@@ -272,7 +272,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<h3>Step:19 Assign Permissions in "ost-config.php"</h3>
+<h3>Step:19 Assign Permissions in ost-config.php</h3>
   
 - Right click on "ost-config.php" file and click properties
 - Scroll to the "Security" Tab -> click "Advanced" -> click "Disable inheritance" at bottom left of window -> click "Remove all inherited permissions from this object
